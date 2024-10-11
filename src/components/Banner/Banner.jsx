@@ -19,7 +19,7 @@ const Banner = ({data}) => {
                 <div data-aos="fade-up">
                   <p className='py-2 text-center md:text-left text-3xl whitespace-nowrap md:whitespace-pre-wrap sm:text-5xl font-bold'>{data.title3}</p>
                   <p className='text-center md:text-left text-sm tracking-wide leading-5'>{data.title4}</p>
-                  <div className='py-2'>
+                  <div className='py-2 text-center md:text-left'>
                       <Button text={"Shop Now"} bgColor={"bg-white"} textColor={data.color}/>
                   </div>
                 </div>
